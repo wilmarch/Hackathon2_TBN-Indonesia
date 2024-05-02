@@ -1,0 +1,41 @@
+.expanded {
+    height: auto;
+}
+
+.bg-custom {
+    background-color: #c9d32c;
+}
+
+.bg-button {
+    background-color: #7b811b;
+}
+
+.bg-navbar {
+    background-color: #091e42;
+}
+
+.text-custom1 {
+    color: #091e42;
+}
+
+.border-custom {
+    background-color: #7b811b;
+}
+
+.partner-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.partner-image:hover {
+    transform: scale(1.05);
+}
+
+#menu-toggle {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #menu-toggle {
+        display: none;
+    }
+}
